@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item  android:title="Navigation">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/baseline_home_24"
+                android:title="Home"
+                />
+            <item
+                android:id="@+id/nav_fav"
+                android:icon="@drawable/baseline_favorite_24"
+                android:title="Favorite"
+                />
+
+            <item
+                android:id="@+id/Account"
+                android:icon="@drawable/baseline_account_circle_24"
+                android:title="Account"
+                />
+
+        </menu>
+    </item>
+
+    <item  android:title="Sell Your Car">
+
+        <menu>
+                <item
+                    android:id="@+id/sell_car"
+                    android:icon="@drawable/baseline_sell_24"
+                    android:title="Sell Car"
+                    />
+        </menu>
+    </item>
+</menu>

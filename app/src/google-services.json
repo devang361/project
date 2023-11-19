@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1044648995771",
+    "firebase_url": "https://carconnect-caf1b-default-rtdb.firebaseio.com",
+    "project_id": "carconnect-caf1b",
+    "storage_bucket": "carconnect-caf1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044648995771:android:8a90695fc5dbd15d8a729e",
+        "android_client_info": {
+          "package_name": "com.example.carconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfzbJWIie-47GOcN1_u8xZG39HDiB_WR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

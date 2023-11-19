@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/search_bar_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#D1D1D1" /> <!-- Light background color -->
+    <corners android:radius="12dp" /> <!-- Adjust the radius for rounded corners -->
+    <stroke
+        android:color="#D1D1D1"/> <!-- Dark border color -->
+
+</shape>

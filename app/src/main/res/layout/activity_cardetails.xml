@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="377dp"
+            android:layout_height="246dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="35dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/videoView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.636"
+            app:srcCompat="@drawable/baseline_share_24" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="325dp"
+            android:layout_marginRight="325dp"
+            android:text="Car Name"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.05"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="171dp"
+            android:layout_height="26dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="8dp"
+            android:text="Price"
+            android:textSize="17dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="42dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:srcCompat="@drawable/baseline_settings_phone_24" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="43dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.058"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView26"
+            app:srcCompat="@drawable/baseline_car_crash_24" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="43dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/baseline_location_on_24" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="139dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="36dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Contact Detail"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/imageView10"
+            app:layout_constraintHorizontal_bias="0.434"
+            app:layout_constraintStart_toEndOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView26" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="260dp"
+            android:layout_marginRight="260dp"
+            android:text="Location"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView11"
+            app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginEnd="68dp"
+            android:layout_marginRight="68dp"
+            android:layout_marginBottom="8dp"
+            android:text="Car Details"
+            android:textSize="19dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/imageView10" />
+
+        <Button
+            android:id="@+id/et_post"
+            android:layout_width="328dp"
+            android:layout_height="57dp"
+            android:layout_marginBottom="36dp"
+            android:background="@color/orange"
+            android:text="Post"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="42dp"
+            android:layout_height="36dp"
+            app:layout_constraintBottom_toBottomOf="@+id/videoView"
+            app:layout_constraintEnd_toEndOf="@+id/videoView"
+            app:layout_constraintTop_toTopOf="@+id/videoView"
+            app:layout_constraintVertical_bias="0.071"
+            app:srcCompat="@drawable/baseline_slow_motion_video_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
